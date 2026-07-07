@@ -1,0 +1,191 @@
+Input file: electrons_10GeV_barrel_CLD_o2_v07.edm4hep.root
+====================================================================================================
+ROOT FILE STRUCTURE
+====================================================================================================
+
+Top-level object: events
+Class: TTree
+Entries: 100
+Branches:
+  - ECalBarrelCollection
+  - _ECalBarrelCollection_contributions
+  - ECalBarrelCollectionContributions
+  - _ECalBarrelCollectionContributions_particle
+  - ECalEndcapCollection
+  - _ECalEndcapCollection_contributions
+  - ECalEndcapCollectionContributions
+  - _ECalEndcapCollectionContributions_particle
+  - EventHeader
+  - _EventHeader_weights
+  - HCalBarrelCollection
+  - _HCalBarrelCollection_contributions
+  - HCalBarrelCollectionContributions
+  - _HCalBarrelCollectionContributions_particle
+  - HCalEndcapCollection
+  - _HCalEndcapCollection_contributions
+  - HCalEndcapCollectionContributions
+  - _HCalEndcapCollectionContributions_particle
+  - HCalRingCollection
+  - _HCalRingCollection_contributions
+  - HCalRingCollectionContributions
+  - _HCalRingCollectionContributions_particle
+  - InnerTrackerBarrelCollection
+  - _InnerTrackerBarrelCollection_particle
+  - InnerTrackerEndcapCollection
+  - _InnerTrackerEndcapCollection_particle
+  - LumiCalCollection
+  - _LumiCalCollection_contributions
+  - LumiCalCollectionContributions
+  - _LumiCalCollectionContributions_particle
+  - MCParticles
+  - _MCParticles_parents
+  - _MCParticles_daughters
+  - OuterTrackerBarrelCollection
+  - _OuterTrackerBarrelCollection_particle
+  - OuterTrackerEndcapCollection
+  - _OuterTrackerEndcapCollection_particle
+  - VertexBarrelCollection
+  - _VertexBarrelCollection_particle
+  - VertexEndcapCollection
+  - _VertexEndcapCollection_particle
+  - YokeBarrelCollection
+  - _YokeBarrelCollection_contributions
+  - YokeBarrelCollectionContributions
+  - _YokeBarrelCollectionContributions_particle
+  - YokeEndcapCollection
+  - _YokeEndcapCollection_contributions
+  - YokeEndcapCollectionContributions
+  - _YokeEndcapCollectionContributions_particle
+  - GPIntKeys
+  - GPIntValues
+  - GPFloatKeys
+  - GPFloatValues
+  - GPDoubleKeys
+  - GPDoubleValues
+  - GPStringKeys
+  - GPStringValues
+
+Top-level object: runs
+Class: TTree
+Entries: 1
+Branches:
+  - GPIntKeys
+  - GPIntValues
+  - GPFloatKeys
+  - GPFloatValues
+  - GPDoubleKeys
+  - GPDoubleValues
+  - GPStringKeys
+  - GPStringValues
+
+Top-level object: meta
+Class: TTree
+Entries: 1
+Branches:
+  - GPIntKeys
+  - GPIntValues
+  - GPFloatKeys
+  - GPFloatValues
+  - GPDoubleKeys
+  - GPDoubleValues
+  - GPStringKeys
+  - GPStringValues
+
+Top-level object: metadata
+Class: TTree
+Entries: 1
+Branches:
+  - GPIntKeys
+  - GPIntValues
+  - GPFloatKeys
+  - GPFloatValues
+  - GPDoubleKeys
+  - GPDoubleValues
+  - GPStringKeys
+  - GPStringValues
+
+Top-level object: podio_metadata
+Class: TTree
+Entries: 1
+Branches:
+  - metadata___CollectionTypeInfo
+  - meta___CollectionTypeInfo
+  - runs___CollectionTypeInfo
+  - events___CollectionTypeInfo
+  - PodioBuildVersion
+  - EDMDefinitions
+  - edm4hep___Version
+
+====================================================================================================
+EVENT COLLECTION OCCUPANCY SUMMARY
+====================================================================================================
+Number of events: 100
+
+Branch / Collection                             Readable   Non-empty events   Total size  Max/event
+----------------------------------------------------------------------------------------------------
+ECalBarrelCollection                                 yes                100        38982        467
+_ECalBarrelCollection_contributions                  yes                100       368261       4384
+ECalBarrelCollectionContributions                    yes                100       368261       4384
+_ECalBarrelCollectionContributions_particle          yes                100       368261       4384
+ECalEndcapCollection                                 yes                 53          191         47
+_ECalEndcapCollection_contributions                  yes                 53         1217        270
+ECalEndcapCollectionContributions                    yes                 53         1217        270
+_ECalEndcapCollectionContributions_particle          yes                 53         1217        270
+EventHeader                                          yes                100          100          1
+_EventHeader_weights                                 yes                  0            0          0
+HCalBarrelCollection                                 yes                 84          393         31
+_HCalBarrelCollection_contributions                  yes                 84          995         57
+HCalBarrelCollectionContributions                    yes                 84          995         57
+_HCalBarrelCollectionContributions_particle          yes                 84          995         57
+HCalEndcapCollection                                 yes                  6           17          6
+_HCalEndcapCollection_contributions                  yes                  6           42         19
+HCalEndcapCollectionContributions                    yes                  6           42         19
+_HCalEndcapCollectionContributions_particle          yes                  6           42         19
+HCalRingCollection                                   yes                  1            3          3
+_HCalRingCollection_contributions                    yes                  1            6          6
+HCalRingCollectionContributions                      yes                  1            6          6
+_HCalRingCollectionContributions_particle            yes                  1            6          6
+InnerTrackerBarrelCollection                         yes                100          373         20
+_InnerTrackerBarrelCollection_particle               yes                100          373         20
+InnerTrackerEndcapCollection                         yes                 12           21          5
+_InnerTrackerEndcapCollection_particle               yes                 12           21          5
+LumiCalCollection                                    yes                  0            0          0
+_LumiCalCollection_contributions                     yes                  0            0          0
+LumiCalCollectionContributions                       yes                  0            0          0
+_LumiCalCollectionContributions_particle             yes                  0            0          0
+MCParticles                                          yes                100          406         26
+_MCParticles_parents                                 yes                 92          306         25
+_MCParticles_daughters                               yes                 92          306         25
+OuterTrackerBarrelCollection                         yes                100          419         15
+_OuterTrackerBarrelCollection_particle               yes                100          419         15
+OuterTrackerEndcapCollection                         yes                 51          108         19
+_OuterTrackerEndcapCollection_particle               yes                 51          108         19
+VertexBarrelCollection                               yes                100          687         34
+_VertexBarrelCollection_particle                     yes                100          687         34
+VertexEndcapCollection                               yes                  1            6          6
+_VertexEndcapCollection_particle                     yes                  1            6          6
+YokeBarrelCollection                                 yes                  0            0          0
+_YokeBarrelCollection_contributions                  yes                  0            0          0
+YokeBarrelCollectionContributions                    yes                  0            0          0
+_YokeBarrelCollectionContributions_particle          yes                  0            0          0
+YokeEndcapCollection                                 yes                  0            0          0
+_YokeEndcapCollection_contributions                  yes                  0            0          0
+YokeEndcapCollectionContributions                    yes                  0            0          0
+_YokeEndcapCollectionContributions_particle          yes                  0            0          0
+GPIntKeys                                            yes                  0            0          0
+GPIntValues                                          yes                  0            0          0
+GPFloatKeys                                          yes                  0            0          0
+GPFloatValues                                        yes                  0            0          0
+GPDoubleKeys                                         yes                  0            0          0
+GPDoubleValues                                       yes                  0            0          0
+GPStringKeys                                         yes                  0            0          0
+GPStringValues                                       yes                  0            0          0
+
+====================================================================================================
+WEEK 1 SIM CHECKS
+====================================================================================================
+MCParticles                         : exists, non-empty events = 100/100, total objects = 406, max/event = 26
+ECalBarrelCollection                : exists, non-empty events = 100/100, total objects = 38982, max/event = 467
+ECalEndcapCollection                : exists, non-empty events = 53/100, total objects = 191, max/event = 47
+HCalBarrelCollection                : exists, non-empty events = 84/100, total objects = 393, max/event = 31
+HCalEndcapCollection                : exists, non-empty events = 6/100, total objects = 17, max/event = 6
